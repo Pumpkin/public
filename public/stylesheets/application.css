@@ -1,0 +1,113 @@
+/*
+
+title: application css
+author: maximilian schoening @ bylinebreak.com
+
+*/
+
+/* section: banner
+---------------------------------------------- */
+#application #banner {
+  margin: 0 0 20px 0;
+}
+
+#application #banner img {
+  display: block;
+}
+/* ------------------------------------------- */
+
+/* section: signup
+---------------------------------------------- */
+#application #signup {
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  margin: 0 0 50px 0;
+  padding: 10px 0 8px 0;
+}
+
+#application #signup .left {
+  line-height: 22px;
+}
+
+#application #signup .right a:link, #application #signup .right a:visited {
+  background: url("/images/application_button_signup.png") no-repeat;
+  background-position: 0 0;
+  display: block;
+  height: 24px;
+  text-indent: -99999em;
+  width: 75px;
+}
+
+#application #signup .right a:hover {
+  background-position: 0 -24px;
+}
+
+#application #signup .right a:active {
+  background-position: 0 -48px;
+}
+/* ------------------------------------------- */
+
+/* section: features
+---------------------------------------------- */
+#application #features {
+  margin: 0 0 50px 0;
+}
+
+#application #features article {
+  margin: 0 0 50px 0;
+}
+
+#application #features aritcle .left {
+  margin: 0 60px 0 0;
+}
+
+#application #features article section p {
+  line-height: 24px;
+  margin: 0 0 24px 0;
+  text-align: justify;
+}
+
+#application #features article aside img {
+  display: block;
+}
+
+#application #features #simple .left {
+  width: 360px;
+}
+
+#application #features #simple .right {
+  width: 400px;
+}
+
+#application #features #integrated .left {
+  width: 340px;
+}
+
+#application #features #integrated .right {
+  width: 420px;
+}
+
+#application #features #accessible .left {
+  width: 300px;
+}
+
+#application #features #accessible .right {
+  width: 460px;
+}
+
+#application #features #reliable .left {
+  width: 400px;
+}
+
+#application #features #reliable .right {
+  width: 360px;
+}
+
+#application #features #extendible .left {
+  width: 300px;
+}
+
+#application #features #extendible .right {
+  width: 460px;
+}
+/* ------------------------------------------- */

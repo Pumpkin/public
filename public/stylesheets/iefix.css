@@ -1,0 +1,14 @@
+/*
+
+title: iefix css
+author: maximilian schoening @ bylinebreak.com
+
+*/
+
+/* section: clearfix
+---------------------------------------------- */
+.clearfix {
+  zoom: 1;
+  display: block;
+}
+/* ------------------------------------------- */
