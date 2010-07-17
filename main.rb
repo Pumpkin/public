@@ -3,6 +3,10 @@ require 'sinatra'
 
 require 'haml'
 
+before do
+  response.headers['Cache-Control'] = 'public, max-age=31557600'
+end
+
 get '/' do
   haml :application
 end
@@ -13,6 +17,10 @@ end
 
 get '/app/download' do
   redirect '/download'
+end
+
+get '/blog' do
+  redirect 'http://blog.getcloudapp.com'
 end
 
 get '/terms' do
