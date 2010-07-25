@@ -23,7 +23,10 @@
         %nav.right
           %ul
             %li
-              %a{:href => "/"} Application
+              - if @loc
+                Application
+              - else
+                %a{:href => "/"} Application
 
             %li
               %a{:href => "http://blog.getcloudapp.com"} Blog

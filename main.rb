@@ -8,6 +8,8 @@ before do
 end
 
 get '/' do
+  @loc = 'application'
+
   haml :application
 end
 
