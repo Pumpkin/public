@@ -13,22 +13,26 @@ get '/' do
   haml :application
 end
 
-get '/download' do
+get '/download/?' do
   haml :download
 end
 
-get '/app/download' do
+get '/app/download/?' do
   redirect '/download'
 end
 
-get '/blog' do
+get '/blog/?' do
   redirect 'http://blog.getcloudapp.com'
 end
 
-get '/terms' do
+get '/blog/feed/?' do
+  redirect 'http://blog.getcloudapp.com/feed.xml'
+end
+
+get '/terms/?' do
   haml :terms
 end
 
-get '/privacy' do
+get '/privacy/?' do
   haml :privacy
 end
