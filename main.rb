@@ -33,6 +33,10 @@ get '/blog/feed/?' do
   redirect 'http://blog.getcloudapp.com/feed.xml'
 end
 
+get '/blog/*' do
+  redirect 'http://blog.getcloudapp.com'
+end
+
 get '/terms/?' do
   haml :terms
 end
