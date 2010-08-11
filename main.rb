@@ -25,6 +25,10 @@ get '/app/sparkle/?' do
   redirect 'http://sparkler.getcloudapp.com/feed.xml'
 end
 
+get '/start/?' do
+  redirect '/'
+end
+
 get '/blog/?' do
   redirect 'http://blog.getcloudapp.com'
 end
