@@ -37,8 +37,10 @@ get '/blog/feed/?' do
   redirect 'http://blog.getcloudapp.com/feed.xml'
 end
 
-get '/blog/*' do
-  redirect 'http://blog.getcloudapp.com'
+get '/blog/:permalink' do
+  permalink = params[:permalink].gsub(/_/, '-')
+
+  redirect "http://blog.getcloudapp.com/article/#{ permalink }"
 end
 
 get '/terms/?' do
