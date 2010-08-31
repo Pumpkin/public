@@ -7,23 +7,11 @@ author: maximilian schoening @ bylinebreak.com
 
 /* section: download
 ---------------------------------------------- */
-#download #app {
-  margin: 0 0 40px 0;
-}
-
 #download ul li {
   background-repeat: no-repeat;
   line-height: 32px;
   margin: 0 0 15px 0;
   padding: 0 0 0 50px;
-}
-
-#download #app li {
-  background-image: url("../images/download_cloud_icon.png");
-}
-
-#download #raindrops li {
-  background-image: url("../images/download_raindrop_icon.png");
 }
 
 #download ul li span {
@@ -45,5 +33,25 @@ author: maximilian schoening @ bylinebreak.com
 
 #download ul li a:active {
   background-position: 0 -44px;
+}
+
+#download #app {
+  margin: 0 0 40px 0;
+}
+
+#download #app li {
+  background-image: url("../images/download_cloud_icon.png");
+}
+
+#download #raindrops {
+  margin: 0 0 40px 0;
+}
+
+#download #raindrops li {
+  background-image: url("../images/download_raindrop_icon.png");
+}
+
+#download #plugins #courier {
+  background-image: url("../images/download_courier_plugin_icon.png");
 }
 /* ------------------------------------------- */
