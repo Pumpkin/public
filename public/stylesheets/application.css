@@ -5,13 +5,13 @@ author: maximilian schoening @ bylinebreak.com
 
 */
 
-/* section: banner
+/* section: preview 
 ---------------------------------------------- */
-#application #banner {
+#application #preview {
   margin: 0 0 20px 0;
 }
 
-#application #banner img {
+#application #preview img {
   display: block;
 }
 /* ------------------------------------------- */
