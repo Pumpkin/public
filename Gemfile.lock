@@ -5,6 +5,8 @@ GEM
     maruku (0.6.0)
       syntax (>= 1.0.0)
     rack (1.2.1)
+    shotgun (0.9)
+      rack (>= 1.0)
     sinatra (1.0)
       rack (>= 1.0)
     syntax (1.0.0)
@@ -15,4 +17,5 @@ PLATFORMS
 DEPENDENCIES
   haml
   maruku
+  shotgun
   sinatra
