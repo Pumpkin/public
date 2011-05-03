@@ -25,26 +25,17 @@ author: maximilian schoening @ bylinebreak.com
   padding: 10px 0 8px 0;
 }
 
-#application #signup .left {
-  line-height: 22px;
+#application #signup {
+  text-align: center;
 }
 
-#application #signup .right a:link, #application #signup .right a:visited {
-  background: url("/images/application_button_signup.png") no-repeat;
-  background-position: 0 0;
+#application #signup small {
+  color: #8b8b8b;
   display: block;
-  height: 24px;
-  text-indent: -99999em;
-  width: 75px;
+  font-size: 11px;
+  margin: 3px 0 0 0;
 }
 
-#application #signup .right a:hover {
-  background-position: 0 -24px;
-}
-
-#application #signup .right a:active {
-  background-position: 0 -48px;
-}
 /* ------------------------------------------- */
 
 /* section: features
