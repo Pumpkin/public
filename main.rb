@@ -3,6 +3,10 @@ require 'sinatra'
 
 require 'haml'
 
+configure :production do
+  require 'newrelic_rpm'
+end
+
 before do
   response.headers['Cache-Control'] = 'public, max-age=31557600'
 end
