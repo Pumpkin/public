@@ -1,7 +1,8 @@
 source :gemcutter
 
 gem 'sinatra'
-gem 'shotgun', :group => :development
+gem 'newrelic_rpm', :group => :production
+gem 'shotgun',      :group => :development
 
 gem 'haml'
 gem 'maruku'
