@@ -1,0 +1,16 @@
+#steve-jobs a {
+  background: #000;
+  line-height: 45px;
+  color: #fff;
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  height: 45px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+}
+
+#steve-jobs a em {
+  font-size: 13px;
+}
