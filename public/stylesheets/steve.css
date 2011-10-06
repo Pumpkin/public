@@ -1,14 +1,15 @@
 #steve-jobs a {
-  background: #000;
-  line-height: 45px;
+  background: url("/images/linen.png") repeat #2c2c2c;
+  border-bottom: 1px solid #000;
+  line-height: 41px;
   color: #fff;
   display: block;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  height: 45px;
+  height: 40px;
   text-align: center;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .33);
 }
 
 #steve-jobs a em {
