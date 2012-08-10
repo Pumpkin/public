@@ -48,7 +48,7 @@ get '/blog/:permalink' do
 end
 
 get '/terms/?' do
-  haml :terms
+  redirect 'http://support.getcloudapp.com/customer/portal/articles/208750-terms-of-service', 301
 end
 
 get '/privacy/?' do
