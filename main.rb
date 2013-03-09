@@ -48,9 +48,9 @@ get '/blog/:permalink' do
 end
 
 get '/terms/?' do
-  redirect 'http://support.getcloudapp.com/customer/portal/articles/208750-terms-of-service', 301
+  redirect 'https://github.com/cloudapp/policy/blob/master/terms-of-service.md#terms-of-service', 301
 end
 
 get '/privacy/?' do
-  haml :privacy
+  redirect 'https://github.com/cloudapp/policy/blob/master/privacy-policy.md#privacy-policy', 301
 end
